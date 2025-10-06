@@ -15,20 +15,6 @@ st.title("Conversational PDF Assistant")
 
 st.write("Upload up to **10 PDF files** and ask questions about their content.")
 
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url("https://unsplash.com/fr/photos/jouet-robot-en-acier-inoxydable-en-photographie-en-gros-plan-_3KdlCgHAn0");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 # --- UPLOAD PDF FILES ---
 uploaded_files = st.file_uploader("Téléverse tes fichiers PDF :", type="pdf", accept_multiple_files=True)
 
